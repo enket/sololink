@@ -25,7 +25,7 @@ static const char *app_ip_filename = "/var/run/solo_app.ip";
 static const unsigned my_port = 5550;
 
 // Send video packets to this UDP port (in app)
-static const unsigned app_port = 5600;
+static const unsigned app_port = 5601;
 
 // Maximum packet size we will forward
 // Video packets all fit in one Enet frame (~1500 bytes)
